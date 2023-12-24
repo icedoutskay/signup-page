@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="application_form.html">sign up</a>
+      <a href="index.html">about me</a>
+  </nav>
+    <h1><strong> Application Form</strong></h1>
+    <p>Fill in your details</p>
+    <form action="/submit" method="post">
+      <table>
+        <tr>
+          <td>
+            <label for="First Name"> First Name*</label> 
+            <br>
+            <input type="text" id="First Name" name="First Name" placeholder="Enter First Name"/>
+          </td>
+          <td>&nbsp;</td>
+          <td >
+            <label for="Last Name"> Last Name*</label> 
+            <br>
+            <input type="text"  id="Last Name" name="Last Name" placeholder="Enter Last Name"/><br>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            <label for="Gender"> Gender* </label><br />
+            <select name="Gender" id="Gender">
+              <option>Select a gender</option>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Other">Other</option>
+            </select>
+          </td>
+          <td>&nbsp;</td>
+          <td>
+            <label for="Date of Birth">Date of Birth*</label><br />
+            <input type="date" id="Date of Birth" name="Date of Birth" /><br>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            <label for="Email Address">Email Address*</label><br />
+            <input type="email" id="Email Address" name="Email Address" placeholder="Enter email address"/>
+          </td>
+          <td>&nbsp;</td>
+          <td>
+            <label for="Education">Education Level*</label><br />
+            <select name="Education Level" id="Education">
+              <option>Select level of education</option>
+              <option value="Bsc">Bsc</option>
+              <option value="Msc">Msc</option>
+              <option value="Diploma">Diploma</option>
+              <option value="Highschool/ Secondary school"> Highschool/ Secondary school </option>
+              <option value="Undergraduate">Undergraduate</option>
+              <option value="Junior/ Middle School">Junior/ Middle School</option>
+              <option value="Post Graduate">Post Graduate</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="Country">Country*</label><br />
+        <select name="Country" id="Country" autocomplete="off">
+          <option>Select your country</option>
+          <option value="nepal">Nepal</option>
+          <option value="usa">USA</option>
+          <option value="australia">Australia</option>
+        </select>
+          </td>
+          <td>&nbsp;</td>
+          <td>
+            <label for="State/City of Residence"> State/City of Residence*</label>
+            <br />
+            <input type="text" name="State/City of Residence" id="State/City of Residence" placeholder="Enter your state of residence" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="Employment">Employment Status*</label><br />
+            <select name="Employment Status" id="Employment">
+              <option>Select your Employment Status</option>
+            </select>
+          </td>
+          <td>&nbsp;</td>
+          <td>
+            <label for="Phone Number"> Phone Number* </label><br />
+      <input type="tel" name="Phone Number" id="Phone Number" />
+          </td>
+        </tr>
+      </table>
+     
+      <p>
+        By clicking, I agree to <a href="terms.html"> terms of use</a>  and acknowledge the <a href="privacy.html">  privacy policy</a>
+      
+      </p>
+      <button type="submit">Proceed</button>
+    </form>
+    <p>Already have an account? <a href="sign.html"> sign in</a></p>
+  </body>
+</html>
